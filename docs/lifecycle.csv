@@ -1,8 +1,0 @@
-| Tahap | Aktivitas Utama | Contoh Tools | Risiko Jika Diabaikan |
-| :--- | :--- | :--- | :--- |
-| **Acquisition** | Pengumpulan data dari berbagai sumber (API, web scraping, database, file CSV/Excel). | requests, BeautifulSoup, pandas, yfinance | Kehilangan data penting atau mendapatkan data yang tidak akurat sejak awal. |
-| **Storage** | Penyimpanan data mentah dan terstruktur secara aman dan terorganisir. | CSV, Parquet, SQLite, Google Drive, PostgreSQL | Data berantakan, hilang, atau rentan terhadap kerusakan/kehilangan akses. |
-| **Cleaning** | Pembersihan data dari nilai yang hilang (missing values), duplikat, dan pencilan (outliers). | pandas, NumPy, OpenRefine | Analisis menjadi salah (garbage in, garbage out) dan kesimpulan keliru. |
-| **Transformation** | Mengubah format data, normalisasi, agregasi, atau pembuatan fitur baru (feature engineering). | pandas, scikit-learn | Data sulit diolah oleh model machine learning atau algoritma analisis. |
-| **Analysis** | Eksplorasi data, visualisasi, dan pemodelan statistik/machine learning untuk mendapatkan insight. | pandas, Matplotlib, Seaborn, Jupyter Notebook | Keputusan yang diambil berdasarkan asumsi, bukan fakta berbasis data. |
-| **Delivery** | Penyajian hasil akhir melalui laporan, dashboard interaktif, atau aplikasi (misal: Streamlit). | Streamlit, Matplotlib, PowerBI, Markdown/PDF reports | Hasil analisis tidak dapat dipahami atau dimanfaatkan oleh stakeholder/pengguna. |
